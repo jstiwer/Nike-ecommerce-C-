@@ -1,70 +1,71 @@
-.img-1 {
-  width: 101px;
-  height: 36px;
+body{
+  margin:0;
+  padding:0;
+}
+.slidershow{
+  width:700px;
+  height:400px;
+  overflow:hidden;
 }
 
-.img-2 {
-  width: 36px;
-  height: 36px;
-  text-align: right;
+.middle{
+  position: abosulte;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.img-3 {
-  width: 36px;
-  height: 36px;
-  text-align: right;
+.navigation{
+  position:absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display:flex;
 }
 
-.item-1 {
-}
-.foo-link {
-  color: white;
-  text-decoration: none;
-}
-
-.banner-img {
-  height: 600px;
-  width: 900px;
-  border-radius: 400px;
+.bar{
+  width:50px;
+  height:10px;
+  border: 2px solid #ffffff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-body {
-  overflow-x: hidden;
+.bar:hover{
+  background: #ffff;
 }
 
-.footer-dark {
-  padding: 50px 0;
-  color: #f0f9ff;
-  background-color: #282d32;
+input[Name="r"]{
+  position: absolute;
+  visibility: hidden;
 }
 
-.contenedor::-webkit-scrollbar {
-  -webkit-appearance: none;
+.slides{
+  width:500%;
+  height:100%;
+  display: flex;
 }
 
-.contenedor::-webkit-scrollbar:vertical {
-  width: 10px;
+.slide{
+  width: 20%;
+  transition: 0.6s;
 }
 
-.contenedor::-webkit-scrollbar-button:increment,
-.contenedor::-webkit-scrollbar-button {
-  display: none;
+.slide img{
+  width:100%;
+  height: 100%;
 }
 
-.contenedor::-webkit-scrollbar:horizontal {
-  height: 10px;
+#r1:checked ~ .s1{
+  margin-left:0;
 }
-
-.contenedor::-webkit-scrollbar-thumb {
-  background-color: #797979;
-  border-radius: 20px;
-  border: 2px solid #f1f2f3;
+#r2:checked ~ .s1{
+  margin-left:-25%;
 }
-
-.contenedor::-webkit-scrollbar-track {
-  border-radius: 10px;
+#r3:checked ~ .s1{
+  margin-left:-50;
 }
-
-.footer-dar {
-  font-size: 13px;
+#r4:checked ~ .s1{
+  margin-left:-75%;
 }
