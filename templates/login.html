@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Login</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="static/css/home.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="login-box"> 
-      <h1>Login</h1>
-      <h3>Just do it!</h3>
-      <form>  
-        <input type="text" placeholder="Email address"> <br> <br>
-        <input type="password" placeholder="Password"> <br> <br>
-        <input type="checkbox"> <label for="Check manetner sesión iniciada">Mantener sesión iniciada</label> <br> <br>
-        <input type="submit" value="login">
-        <a href="http://">Contraseña olvidada</a> <br> <br>
-        <label>¿No eres miembro?</label> <a href="http://">Unirse</a><br> <br>
-      </form>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Login -->
+    <link rel="stylesheet" href="/Nike-ecommerce-C-/static/css/Login.css">
+    <!-- Fuente Barlow condensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap" rel="stylesheet">
+    <title>Osports</title>
+</head>
+<body>
+    <div class="Login-box">
+        <!-- Logo de la marca -->
+        <img class = "avatar" src="/Nike-ecommerce-C-/static/img/logo_minimalista.jpeg" alt="Logo de OSPORT">
+        <div class="h1">
+            <h1>INICIA SESIÓN CON TU CUENTA OSPORT</h1>
+        </div>
+
+        <form>
+            <!-- Username -->
+            <input type="text" placeholder="Dirección de correo electrónico">
+
+           <!-- password -->
+           <input type="Password" placeholder="Contraseña">
+           
+           <!-- Casilla para mantener incio de sesion -->
+            <div class = "check">
+                <input type="checkbox" id="check1" checked>
+                <label for="check1">Mantener la sesión abierta</label>
+            </div>
+            <!-- Link para reponer la contraseña -->
+            <div class= "Recuperar_Contraseña">
+                <a href="Recuperar_Contaseña.html">¿Olvidaste la contraseña?</a>
+            </div>   
+
+           <br>
+
+           <!-- Politicas de privacidad & Terminos de uso -->
+           <div class="TyC">
+            <p>Al iniciar sesión, aceptas la <a class = "PPyTU" href="#">Política de Privacidad</a> y los <a class = "PPyTU" href="#">Términos de uso</a> de Osports.</p>
+           </div>
+
+           <!-- Boton para iniciar sesión -->
+           <input type="submit" value="INICIAR SESIÓN">
+
+           <!-- Link para registrarse -->
+           <p class = "link_registro">¿No eres miembro? <a href="Register.html">Únete a nosotros</a></p>
+        </form>
     </div>
-  </body>
+</body>
 </html>

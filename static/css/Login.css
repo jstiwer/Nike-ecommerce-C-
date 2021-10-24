@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.Login-box{
+    width: 440px;
+    height: 500px;
+    background: #fff;
+    color: #000;
+    top: 48%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.Login-box .avatar{
+    width: 70px;
+    height: 52px;
+    border-radius: 50%;
+    position: relative;
+    top: -17%;
+    left: calc(50% - 40px);
+}
+.h1{
+    margin: 0;
+    padding: 10px 0 10px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    position: relative;
+    top: -20%;
+    left: calc(50% - 155px);
+    width: 80%;
+}
+form{
+    position: relative;
+    top: -10%;
+}
+.Login-box input{
+    width: 295px;
+    margin-bottom: 10px;
+    position: relative; 
+    left: 25px;
+    top: -30px;
+}
+.Login-box input[type = "text"],
+.Login-box input[type = "Password"]{
+    border: #c2c2c2 solid 1px;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    margin-bottom: 15px;
+    color: #6e7579;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+.Login-box input[type = "submit"]{
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 330px;
+    border-radius: 4px;
+    position: relative;
+    top: -55px;
+    left: 24px;
+    background: black;
+    color: white;
+}
+.TyC{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #72777c;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 11%;
+    top: -60px
+}
+.PPyTU{
+    color: #72777c;
+}
+.check {
+	font-family: Helvetica, sans-serif;
+	width: 150px;
+    height: 15px;
+    position: relative;
+    top: -20px;
+    left: 32px;
+}
+label {
+	font-size: 12px;
+    font-weight: lighter;
+	color: #72777c;
+    display: inline-block;
+    position: relative;
+    padding-left: 2em;
+}
+input[type=checkbox] {
+	display:none; 
+}
+input[type=checkbox] + label {
+	cursor: pointer;
+}
+label:before {
+    content: "";
+    background: transparent;
+    border: solid 1px #c2c2c2;
+    text-shadow: 4px -2px 3px #c2c2c2;
+    border-radius: 3px;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align:middle;
+    position: absolute;
+    left: -8px;
+    top: 3px;
+}
+input[type=checkbox]:checked + label:before {
+	content: '✔';
+	font-size: 15px;
+	color: black;
+	font-family: "Times New Roman";
+}
+
+.Recuperar_Contraseña{
+    font-family: Helvetica, sans-serif;
+    text-align: right;
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+    position: relative;
+    right: -153px;
+    top: -30px;
+}
+.Recuperar_Contraseña a{
+    text-decoration: none;
+    color: #b7b7b7;
+}
+.link_registro{
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: -55px;
+    color:#72777c;
+}
+.link_registro a{
+    color: black;
+}
