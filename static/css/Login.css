@@ -47,10 +47,10 @@ form{
     top: -10%;
 }
 .Login-box input{
-    width: 295px;
+    width: 330px;
     margin-bottom: 10px;
     position: relative; 
-    left: 25px;
+    left: 24px;
     top: -30px;
 }
 .Login-box input[type = "text"],
