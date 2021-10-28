@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Login -->
+    <link rel="stylesheet" href="../../static/css/login.css">
+    <!-- Fuente Barlow condensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img class="logo" src="../static/img/Logo_cosport.png" alt="logo">
+            </a>
+            <ul class="enlaces-menu">
+                <li>
+                    <a href="#">Novedades</a>
+                    <ul class="menu-novedades">
+                        <li><a href="Hombres/Destacado.html">Destacado Hombres</a></li>
+                        <li><a href="Mujeres/Destacado.html">Destacado Mujeres</a></li>
+                        <li><a href="Ninos/Destacado.html">Destacado Niños</a></li>
+                    </ul>
+                </li>
+                <li><a href="Hombres/Destacado.html">Hombres</a>
+                    <ul>
+                        <li><a href="Hombres/Destacado.html">Destacado Hombres</a></li>
+                        <li><a href="Hombres/Calzado.html">Calzado</a></li>
+                        <li><a href="Hombres/Ropa.html">Ropa</a></li>
+                        <li><a href="Hombres/Accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li><a href="Mujeres/Destacado.html">Mujeres</a>
+                    <ul>
+                        <li><a href="Mujeres/Destacado.html">Destacado Mujeres</a></li>
+                        <li><a href="Mujeres/Calzado.html">Calzado</a></li>
+                        <li><a href="Mujeres/Ropa.html">Ropa</a></li>
+                        <li><a href="Mujeres/Accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li><a href="Ninos/Destacado.html">Niños</a>
+                    <ul>
+                        <li><a href="Ninos/Destacado.html">Destacado Niños</a></li>
+                        <li><a href="Ninos/Calzado.html">Calzado</a></li>
+                        <li><a href="Ninos/Ropa.html">Ropa</a></li>
+                        <li><a href="Ninos/Accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="login.html"><i class="far fa-user-circle" style="font-size:25px;"></i></a>
+                </li>
+            </ul>
+
+            <button class="ham" type="button">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+            </button>
+        </nav>
+    </header>
+
+    <div class = "contenedor">
+        <div class="Login-box">
+            <!-- Logo de la marca -->
+            <img class = "avatar" src="../../static/img/logo_minimalista.jpeg" alt="Logo de OSPORT">
+            <div class="h1">
+                <h1>INICIAR SESIÓN CON TU CUENTA COSPORT</h1>
+            </div>
+    
+            <form>
+                <!-- Username -->
+                <input type="text" placeholder="Dirección de correo electrónico">
+    
+                <!-- password -->
+                <input type="Password" placeholder="Contraseña">
+                
+                <!-- Casilla para mantener incio de sesion -->
+                <div class = "check">
+                    <input type="checkbox" id="check1" checked>
+                    <label for="check1">Mantener la sesión abierta</label>
+                </div>
+                <!-- Link para reponer la contraseña -->
+                <div class= "Recuperar_Contraseña">
+                    <a href="Recuperar_Contaseña.html">¿Olvidaste la contraseña?</a>
+                </div>   
+    
+                <br>
+    
+                <!-- Politicas de privacidad & Terminos de uso -->
+                <div class="TyC">
+                <p>Al iniciar sesión, aceptas la <a class = "PPyTU" href="#">Política de Privacidad</a> y los <a class = "PPyTU" href="#">Términos de uso</a> de Osports.</p>
+                </div>
+    
+                <!-- Boton para iniciar sesión -->
+                <input type="submit" value="INICIAR SESIÓN">
+    
+                <!-- Link para registrarse -->
+                <p class = "link_registro">¿No eres miembro? <a href="Register.html">Únete a nosotros</a></p>
+            </form>
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1"></i>
+            <div class="box">
+                <figure>
+                    <a href="index.html">
+                        <img src="../static/img/Logo_cosport_bn.png" alt="logo-footer">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <ul>
+                    <li> <a href="#">Sobre nosotros</a></li>
+                    <li> <a href="#">Contactenos</a></li>
+                    <li> <a href="#">Soporte</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="red-social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021</small>
+        </div>
+    </footer>
+</body>
+</html>

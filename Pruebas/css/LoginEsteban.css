@@ -1,0 +1,349 @@
+/* Barra de Navegación */
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.logo{
+    width:91.92px;
+    height:45.408px;
+    position: relative;
+    top: 0%;
+}
+.logo-d{
+    position: relative;
+    top: 0%;
+    left: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height:  8vh;
+    background-color: #ffffff;
+    
+}
+
+.ham{
+    display:none; 
+    cursor: pointer;
+    border:none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.ham span{
+    display:block;
+    background-color:#f3f3f3;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.enlaces-menu{
+    display:flex;
+    padding:0;
+    
+}
+.enlaces-menu li{
+    padding: 0px 40px;
+    list-style-type: none;    
+    background-color: #fff;
+}
+
+.enlaces-menu li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.2s;
+    color: #000;
+    padding: 20px 0px;
+    display: block;
+}
+
+.enlaces-menu li:hover{
+    opacity: 1;
+    color: rgb(104, 0, 223);
+    
+}
+.enlaces-menu li:hover > ul{
+    display:block;
+    transition: 0.5;
+    
+}
+.enlaces-menu li a:hover{
+    opacity: 1;
+    color: rgb(104, 0, 223);
+}
+.enlaces-menu li ul{
+    display: none;
+    position:relative;
+    min-width: 40px;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.contenedor{
+    width: 100%;
+    height: 1000px;
+}
+.Login-box{
+    width: 440px;
+    height: 440px;
+    margin: auto;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.Login-box .avatar{
+    width: 70px;
+    height: 52px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 40px);
+}
+.h1{
+    margin: 0;
+    padding: 10px 0 10px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    position: relative;
+    top: -20%;
+    left: calc(50% - 155px);
+    width: 80%;
+}
+form{
+    position: relative;
+    top: -10%;
+}
+.Login-box input{
+    width: 295px;
+    margin-bottom: 10px;
+    position: relative; 
+    left: 25px;
+    top: -30px;
+}
+.Login-box input[type = "text"],
+.Login-box input[type = "Password"]{
+    border: #c2c2c2 solid 1px;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    margin-bottom: 15px;
+    color: #6e7579;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+.Login-box input[type = "submit"]{
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 330px;
+    border-radius: 4px;
+    position: relative;
+    top: -55px;
+    left: 24px;
+    background: black;
+    color: white;
+}
+.TyC{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #72777c;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 11%;
+    top: -60px
+}
+.PPyTU{
+    color: #72777c;
+}
+.check {
+	font-family: Helvetica, sans-serif;
+	width: 150px;
+    height: 15px;
+    position: relative;
+    top: -20px;
+    left: 32px;
+}
+label {
+	font-size: 12px;
+    font-weight: lighter;
+	color: #72777c;
+    display: inline-block;
+    position: relative;
+    padding-left: 2em;
+}
+input[type=checkbox] {
+	display:none; 
+}
+input[type=checkbox] + label {
+	cursor: pointer;
+}
+label:before {
+    content: "";
+    background: transparent;
+    border: solid 1px #c2c2c2;
+    text-shadow: 4px -2px 3px #c2c2c2;
+    border-radius: 3px;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align:middle;
+    position: absolute;
+    left: -8px;
+    top: 3px;
+}
+input[type=checkbox]:checked + label:before {
+	content: '✔';
+	font-size: 15px;
+	color: black;
+	font-family: "Times New Roman";
+}
+
+.Recuperar_Contraseña{
+    font-family: Helvetica, sans-serif;
+    text-align: right;
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+    position: relative;
+    right: -153px;
+    top: -30px;
+}
+.Recuperar_Contraseña a{
+    text-decoration: none;
+    color: #b7b7b7;
+}
+.link_registro{
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: -55px;
+    color:#72777c;
+}
+.link_registro a{
+    color: black;
+}
+
+/* Pie de pagina */
+footer{
+    padding: 40px 15% 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+.pie-pagina{
+    width:100%;
+    background-color: #111;
+    bottom: -30%;
+    position: absolute;
+    padding-bottom: 0px;
+}
+.grupo-1{
+    display: flex;
+    text-align: center;
+    color: #1111;
+}
+.box1 figure{
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.box1 figure img{
+    width:91.92px;
+    height:45.408px;
+    position: relative;
+    top: 0%;
+}
+.box2{
+    position: relative;
+    top: 0%;
+    left: 10%;
+    padding: 0 30px 20px;
+}
+.box3{
+    position: relative;
+    top: 0%;
+    left: 73%;
+}
+.box2 ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.box2 li{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0 0 15px;
+}
+.box a, .box2 a, .box3 a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.red-social a{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.box3 a{
+    opacity: 1;
+}
+.grupo-2{
+    text-align: left;
+    color: #7e7e7e;
+    font-size: 14px;
+    opacity: 0.8;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 100%;
+    border-top: groove 2px #313131;
+    padding: 18px 10px 12px;
+    display: flex;
+    text-align: center;
+}
+.grupo-2 div{
+    position: absolute;
+    top: 85%;
+    left: 75.5%;
+}
+.terminos{
+    text-decoration: none;
+    color: #ffff;
+    padding: 8px;
+    font-size: 10px;
+    opacity: 0.5;
+} 
