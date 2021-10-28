@@ -1,0 +1,234 @@
+/* Registro */
+.bregistro{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.contenedor{
+    width: 100%;
+    height: 1000px;
+}
+.Registro-box{
+    width: 480px;
+    height: 1000px;
+    margin: auto;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.div-avatar{
+    width: 70px;
+    height: 52px;
+    margin: 0 auto;
+    
+}
+.Registro-box .avatar{
+    width: 70px;
+    height: 52px;
+    border-radius: 50%;
+}
+.h1{
+    margin: 0 auto;
+    padding: 32px 0 26px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    width: 80%;
+}
+h1{
+    margin: 0;
+}
+.p1{
+    margin: 0 auto;
+    padding: 0px 0 25px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    width: 80%;
+    color:#000;
+    opacity: 0.5;
+}
+.p1 p{
+    margin: 0;
+}
+.Registro-box input{
+    width: 295px;
+    margin-bottom: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+.Registro-box select{
+    width: 328px;
+    margin-bottom: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+.Registro-box input[type = "text"],
+.Registro-box input[type = "Password"],
+.Registro-box select{
+    border: #c2c2c2 solid 1px;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    margin-bottom: 15px;
+    color: #6e7579;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+.p2{
+    margin: 0 auto 0;
+    padding: 0px 0 5px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 80%;
+    color:#000;
+    opacity: 0.5;   
+}
+.p2 p{
+    margin: 0;
+}
+.Registro-box select{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+/* Genero */
+.check2 {
+	font-family: Helvetica;
+	width: 450px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.genero {
+	font-size: 16px;
+    color: gray;
+    display: inline-block;
+    position: relative;
+    padding: 12px 1.5em;
+    top: -130%;
+}
+input[type=radio] {
+	display:none; 
+}
+input[type=radio] + label {
+	cursor: pointer;
+}
+label:before {
+	content: "";
+	background: transparent;
+	border: solid 1px gray;
+	text-shadow: 4px -2px 3px gray;
+	border-radius: 3px;
+	display: inline-block;
+	height: 15px;
+    width: 15px;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align:middle;
+    position: absolute;
+    left: 0px;
+    top: -3px;
+}
+input[type=radio]:checked + label:before {
+	content: '✔';
+	font-size: 10px;
+	color: black;
+	font-family: "Times New Roman";
+}
+.check {
+	font-family: Helvetica, sans-serif;
+	width: 335px;
+    height: 50px;
+    position: relative;
+    top: -20px;
+    left: 53px;
+}
+.check label {
+	font-size: 13px;
+    font-weight: lighter;
+	color: #a0a4a8;
+    display: inline-block;
+    position: relative;
+    padding-left: 2.3em;
+}
+input[type=checkbox] {
+	display:none; 
+}
+input[type=checkbox] + label {
+	cursor: pointer;
+}
+label:before {
+    content: "";
+    background: transparent;
+    border: solid 1px #c2c2c2;
+    text-shadow: 4px -2px 3px #c2c2c2;
+    border-radius: 3px;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align:middle;
+    position: absolute;
+    left: -8px;
+    top: 10px;
+}
+input[type=checkbox]:checked + label:before {
+	content: '✔';
+	font-size: 12px;
+	color: black;
+	font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+.TyC{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #72777c;
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+}
+.PPyTU{
+    color: #72777c;
+}
+.Registro-box input[type = "submit"]{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 330px;
+    border-radius: 4px;
+    background: black;
+    color: white;
+    margin: 10px auto 15px;
+}
+.link_login{
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    color:#72777c;
+}
+.link_login a{
+    color: black;
+}
