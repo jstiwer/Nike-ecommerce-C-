@@ -125,20 +125,21 @@ label:before {
     text-shadow: 4px -2px 3px #c2c2c2;
     border-radius: 3px;
     display: inline-block;
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
     margin-right: 20px;
     text-align: center;
     vertical-align:middle;
     position: absolute;
     left: -8px;
-    top: 3px;
+    top: 8px;
 }
 input[type=checkbox]:checked + label:before {
 	content: '✔';
-	font-size: 15px;
+	font-size: 12px;
 	color: black;
-	font-family: "Times New Roman";
+	font-family: Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .Recuperar_Contraseña{
@@ -166,5 +167,5 @@ input[type=checkbox]:checked + label:before {
     color: black;
 }
 .pie-pagina{
-    bottom: -5%;
+    bottom: -160px;
 }
