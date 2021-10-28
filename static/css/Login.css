@@ -165,3 +165,6 @@ input[type=checkbox]:checked + label:before {
 .link_registro a{
     color: black;
 }
+.pie-pagina{
+    bottom: -20%;
+}
