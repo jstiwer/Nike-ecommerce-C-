@@ -48,6 +48,10 @@ header{
     height:56.76px;
 }
 
+.logo:hover{
+    opacity: 0.6;
+}
+
 nav{
     display: flex;
     align-items: center;
