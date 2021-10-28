@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Login -->
-    <link href="/Nike-ecommerce-C-/static/css/Registro.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/plantilla.css">
+    <link href="../static/css/Registro.css" rel="stylesheet" />
     <!-- Fuente Barlow condensed -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +19,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
      <!-- Iconos -->
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <title>Registros</title>
+    <title>Registro</title>
 </head>
 <body class = "bregistro">
+    <header>
+        <nav>
+            <a href="index.html">
+                <img class="logo" src="../static/img/Logo_cosport.png" alt="logo">
+            </a>
+            <ul class="enlaces-menu">
+                <li>
+                    <a href="#">Novedades</a>
+                    <ul class="menu-novedades">
+                        <li><a href="Destacado.html">Destacado Hombres</a></li>
+                        <li><a href="../Mujeres/Destacado.html">Destacado Mujeres</a></li>
+                        <li><a href="../Ninos/Destacado.html">Destacado Niños</a></li>
+                    </ul>
+                </li>
+                <li><a href="Destacado.html">Hombres</a>
+                    <ul>
+                        <li><a href="Destacado.html">Destacado Hombres</a></li>
+                        <li><a href="Calzado.html">Calzado</a></li>
+                        <li><a href="Ropa.html">Ropa</a></li>
+                        <li><a href="Accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li><a href="../Mujeres/Destacado.html">Mujeres</a>
+                    <ul>
+                        <li><a href="../Mujeres/Destacado.html">Destacado Mujeres</a></li>
+                        <li><a href="../Mujeres/Calzado.html">Calzado</a></li>
+                        <li><a href="../Mujeres/Ropa.html">Ropa</a></li>
+                        <li><a href="../Mujeres/Accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li><a href="../Ninos/Destacado.html">Niños</a>
+                    <ul>
+                        <li><a href="../Ninos/Destacado.html">Destacado Niños</a></li>
+                        <li><a href="../Ninos/Calzado.html">Calzado</a></li>
+                        <li><a href="../Ninos/Ropa.html">Ropa</a></li>
+                        <li><a href=".//Ninos/Accesorios.html">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../login.html">Login</a>
+                </li>
+            </ul>
+
+            <button class="ham" type="button">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+            </button>
+        </nav>
+    </header>
     <div class = "contenedor">
         <div class="Registro-box">
             <!-- Logo de la marca -->
@@ -332,40 +383,35 @@
         </div>
     </div>
       <!-- Footer -->
-    <div class="pie-pagina">
-        <footer>
-            <div class="grupo-1">
-                <div class="box1">
-                    <figure>
-                        <a href="#">
-                            <img src="/Nike-ecommerce-C-/static/img/Logo_cosport_bn.png" alt="logo-footer"><!-- ../../static/img/Logo_cosport_bn.png -->
-                        </a>
-                    </figure>
-                </div>
-                <div class="box2">
-                    <ul>
-                        <li> <a href="#">Sobre nosotros</a></li>
-                        <li> <a href="#">Contactenos</a></li>
-                        <li> <a href="#">Soporte</a></li>
-                    </ul>
-                </div>
-                <div class="box3">
-                    <div class="red-social">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                    </div>
+      <footer class="pie-pagina">
+        <div class="grupo-1"></i>
+            <div class="box">
+                <figure>
+                    <a href="../index.html">
+                        <img src="../static/img/Logo_cosport_bn.png" alt="logo-footer">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <ul>
+                    <li> <a href="#">Sobre nosotros</a></li>
+                    <li> <a href="#">Contactenos</a></li>
+                    <li> <a href="#">Soporte</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="red-social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
                 </div>
             </div>
-            <div class="grupo-2">
-                <small>&copy; 2021 Osport, Inc. Todos los derechos reservados</small>
-                <div>
-                    <a class="terminos" href="#">Términos de uso</a>
-                    <a class="terminos" href="#">Política de privacidad</a>
-                </div>
-            </div>
-        </footer>
-    </div>
+
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 Cospor, Inc. Todos los derechos reservados</small>
+        </div>
+    </footer>
 <script src = "/Nike-ecommerce-C-/static/js/Registro.js"></script>
 </body>
 </html>
