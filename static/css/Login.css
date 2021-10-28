@@ -166,5 +166,5 @@ input[type=checkbox]:checked + label:before {
     color: black;
 }
 .pie-pagina{
-    bottom: -20%;
+    bottom: -5%;
 }
